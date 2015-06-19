@@ -6,12 +6,12 @@ Docker Webpack Container, based on Debian Wheezy Container
 
 ### Build
 
-```
+```bash
 docker build -t jastrzebowski/webpack .
 ```
 
 ### Run
 
-```
+```bash
 docker run -it --rm jastrzebowski/webpack
 ```

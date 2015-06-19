@@ -7,6 +7,8 @@
 # Pull base image Debian Wheezy
 FROM debian:wheezy
 
+MAINTAINER Karol Jastrzębowski <karol.jastrzebowski@gmail.com>
+
 RUN	apt-get update && apt-get install -y
 
 # Install Node.js
@@ -20,10 +22,6 @@ RUN apt-get install -y nodejs
 
 # Define working directory
 WORKDIR /data
-
-# Install node modules
-
-MAINTAINER Karol Jastrzębowski <karol.jastrzebowski@gmail.com>apt-get install curl
 
 # Define default command.
 CMD ["bash"]
